@@ -34,6 +34,10 @@ button {
   margin: 0 auto;
 }
 
+.card {
+  width: 100%;
+}
+
 /* Headline section */
 #headline {
   padding: 180px 0;
@@ -43,7 +47,7 @@ button {
 }
 
 .support-text {
-  margin: 24px auto 36px!important;
+  margin: 24px auto 36px !important;
 }
 
 .social-icons {
