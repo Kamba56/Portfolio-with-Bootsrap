@@ -4,28 +4,56 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!-- Fontawesome link -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
+    />
+
+    <!-- Bootstrap link -->
     <link
       href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
       rel="stylesheet"
       integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
       crossorigin="anonymous"
     />
-    <link rel="stylesheet" href="style.css">
+    <script
+    src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+    crossorigin="anonymous"
+    ></script>
+
+    <!-- My CSS -->
+    <link rel="stylesheet" href="style.css"/>
     <title>Pair programming portfolio</title>
   </head>
-  <body>
+  <body class="text-color1">
     <!-- Navbar -->
     <nav class="navbar navbar-light navbar-expand-md">
       <div id="navbrand-container" class="container-fluid">
         <a class="navbar-brand" href="#">Welcome</a>
       </div>
-      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+      <button
+        class="navbar-toggler"
+        type="button"
+        data-bs-toggle="collapse"
+        data-bs-target="#navbarNav"
+        aria-controls="navbarNav"
+        aria-expanded="false"
+        aria-label="Toggle navigation"
+      >
         <span class="navbar-toggler-icon"></span>
       </button>
-      <div class="collapse navbar-collapse justify-content-center" id="navbarNav">
+      <div
+        class="collapse navbar-collapse justify-content-center"
+        id="navbarNav"
+      >
         <ul class="navbar-nav">
           <li class="nav-item">
-            <a class="nav-link active" aria-current="page" href="#">Portfolio</a>
+            <a class="nav-link active" aria-current="page" href="#"
+              >Portfolio</a
+            >
           </li>
           <li class="nav-item">
             <a class="nav-link" href="#">About</a>
@@ -36,11 +64,50 @@
         </ul>
       </div>
     </nav>
-  
-    <script
-      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
-      integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
-      crossorigin="anonymous"
-    ></script>
+
+    <section id="headline" class="container-fluid align-items-center flex-column flex">
+      <div class="container">
+        <h1 class="h1 my-container text-center">
+          Hey there. I’m Alex. <br> <span class="text-color2">I’m a software developer</span>
+        </h1>
+        <p class="p text-center my-container support-text"> I can help you build a product , feature or website Look through some of my work and experience! If you like what you see and have a project you need coded, 
+          don’t hestiate to contact me.</p>
+      </div>
+
+      <ul class="row justify-content-center">
+        <li class="col">
+          <a href="#" class="social-icons text-color1"
+            ><i class="fa-brands fa-twitter"></i
+          ></a>
+        </li>
+        <li class="col">
+          <a href="#" class="social-icons text-color1"
+            ><i class="fa-brands fa-linkedin"></i
+          ></a>
+        </li>
+        <li class="col">
+          <a href="#" class="social-icons text-color1"
+            ><i class="fa-brands fa-instagram"></i
+          ></a>
+        </li>
+        <li class="col">
+          <a href="#" class="social-icons text-color1"
+            ><i class="fa-brands fa-github"></i
+          ></a>
+        </li>
+      </ul>
+
+      <button type="button" id="down-arrow">
+        <i class="fa-solid fa-angle-down"></i>
+      </button>
+    </section>
+
+    <section id="work" class="container-fluid">
+      <h2 class="h2">My Recent Works</h2>
+      <div class="container">
+
+      </div>
+    </section>
+    
   </body>
 </html>

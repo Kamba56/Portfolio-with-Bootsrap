@@ -1,11 +1,92 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap');
+
+body {
+  font-family: 'Inter', sans-serif;
+}
+
+ul {
+  list-style: none;
+  padding-left: 0;
+}
+
+button {
+  border: none;
+}
+
+.flex {
+  display: flex;
+}
+
 .navbar {
   flex-wrap: nowrap;
 }
 
+.text-color1 {
+  color: #172b4d;
+}
 
+.text-color2 {
+  color: #36b37f;
+}
 
+.my-container {
+  width: 100%;
+  margin: 0 auto;
+}
+
+/* Headline section */
+#headline {
+  padding: 180px 0;
+  background: url(images/background/header-illsutration-mobile.svg);
+  background-repeat: no-repeat;
+  background-position-x: center;
+}
+
+.support-text {
+  margin: 24px auto 36px!important;
+}
+
+.social-icons {
+  font-size: 1rem;
+  padding: 5px;
+  display: block;
+}
+
+#down-arrow {
+  border: 1px solid #dfe1e6;
+  width: 40px;
+  height: 40px;
+  padding: 8px;
+  border-radius: 50%;
+  font-size: 15px;
+  margin-top: 80px;
+}
+
+/* Media Queries */
 @media only screen and (min-width: 768px) {
   #navbrand-container {
     display: none;
+  }
+
+  .navbar {
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+  }
+
+  .my-container {
+    width: 65%;
+    margin: 0 auto;
+  }
+
+  .social-icons {
+    font-size: 1.3rem;
+  }
+
+  #headline {
+    padding: 220px 0 250px;
+    background: url(images/background/Header-llustration-desktop.svg);
+    background-position-x: center;
+    background-repeat: no-repeat;
   }
 }
