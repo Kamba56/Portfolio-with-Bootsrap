@@ -1,0 +1,11 @@
+.navbar {
+  flex-wrap: nowrap;
+}
+
+
+
+@media only screen and (min-width: 768px) {
+  #navbrand-container {
+    display: none;
+  }
+}
